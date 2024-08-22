@@ -1,0 +1,36 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+     "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "admissions",
+     "patterns": ["apply","admission","contact","about"],
+     "responses":[
+        "To apply for the admission you can visit the college and also apply through the SRM ramapuram website\nCONTACT - 044 4392 3133,1800 102 1525"]
+    },
+    {"tag": "about",
+     "patterns": [
+        "about","found","srm","college"],
+     "responses": [
+        "SRM Institute of Science and Technology (formerly known as SRM University) is one of the top ranking universities in India with over 20,000 students and 1,500 faculty, offering a wide range of undergraduate, postgraduate and doctoral programs in Engineering, Management, Medicine and Health sciences, Science and Humanities."]
+    },
+    {"tag": "academics",
+     "patterns": ["department"],
+     "responses": [
+    "Department of Biomedical Engineering\nDepartment of Mechanical Engineerin\nDepartment of Civil Engineering\nDepartment of Computer Science Engineering\nDepartment of Electronics & Communication Engineering\nDepartment of Electrical and Electronics Engineering\nDepartment of Biotechnology\nDepartment of Information Technology\nDepartment of English and Foreign Languages\nDepartment of Mathematics\nDepartment of Physics\nDepartment of Chemistry\nDepartment of Architecture"]
+    },
+    {"tag": "contactinfomation",
+     "patterns": ["contact","address","location","college"],
+     "responses": ["SRM Institute Of Science And Technology, Bharathi Salai, Ramapuram,Chennai – 600 089.\nCONTACT - 044 4392 3042 /044 4392 3133\nEMAIL - helpdesk@srmrmp.edu.in"]
+    }
+]
+}
