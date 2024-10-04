@@ -8,7 +8,12 @@ body {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 100%;
-    background: #F1F1F1;
+    background: url("images/back_ground.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh;
+    margin-left: 10px;
+    padding:0;
 }
 
 *, html {
@@ -88,7 +93,7 @@ body {
 }
 
 .messages__item {
-    background: orange;
+    background: rgb(255, 255, 255);
     max-width: 60.6%;
     width: fit-content;
 }
@@ -103,14 +108,15 @@ body {
 
 /* FOOTER */
 .chatbox__footer {
+    background-color: #0c477f;
     position: sticky;
     bottom: 0;
 }
 
 .chatbox__support {
-    background: #f9f9f9;
+    background: #ffffff;
     height: 550px;
-    width: 350px;
+    width: 400px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -140,12 +146,12 @@ body {
 
 .chatbox__description--header {
     font-size: .9rem;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 /* Messages */
 .chatbox__messages {
-    padding: 0 20px;
+    padding: 0 24px;
 }
 
 .messages__item {
@@ -193,19 +199,19 @@ body {
 }
 
 .chatbox__send--footer {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .chatbox__button button,
 .chatbox__button button:focus,
 .chatbox__button button:visited {
     padding: 10px;
-    background: white;
+    background: rgb(255, 255, 255);
     border: none;
     outline: none;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 15px rgba(0, 2, 134, 0.1);
     cursor: pointer;
 }
