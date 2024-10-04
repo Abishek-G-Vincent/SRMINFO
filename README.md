@@ -1,2 +1,2 @@
 # SRMINFO
-A chatbot SRM Ramapuram college website.
+A chatbot for SRM Ramapuram college website.
