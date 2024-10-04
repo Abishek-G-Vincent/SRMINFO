@@ -1,36 +1,161 @@
-{"intents": [
-    {"tag": "greeting",
-     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
-     "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
-     "context_set": ""
-    },
-    {"tag": "goodbye",
-     "patterns": ["Bye", "See you later", "Goodbye"],
-     "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
-    },
-    {"tag": "thanks",
-     "patterns": ["Thanks", "Thank you", "That's helpful"],
-     "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {"tag": "admissions",
-     "patterns": ["apply","admission","contact","about"],
-     "responses":[
-        "To apply for the admission you can visit the college and also apply through the SRM ramapuram website\nCONTACT - 044 4392 3133,1800 102 1525"]
-    },
-    {"tag": "about",
-     "patterns": [
-        "about","found","srm","college"],
-     "responses": [
-        "SRM Institute of Science and Technology (formerly known as SRM University) is one of the top ranking universities in India with over 20,000 students and 1,500 faculty, offering a wide range of undergraduate, postgraduate and doctoral programs in Engineering, Management, Medicine and Health sciences, Science and Humanities."]
-    },
-    {"tag": "academics",
-     "patterns": ["department"],
-     "responses": [
-    "Department of Biomedical Engineering\nDepartment of Mechanical Engineerin\nDepartment of Civil Engineering\nDepartment of Computer Science Engineering\nDepartment of Electronics & Communication Engineering\nDepartment of Electrical and Electronics Engineering\nDepartment of Biotechnology\nDepartment of Information Technology\nDepartment of English and Foreign Languages\nDepartment of Mathematics\nDepartment of Physics\nDepartment of Chemistry\nDepartment of Architecture"]
-    },
-    {"tag": "contactinfomation",
-     "patterns": ["contact","address","location","college"],
-     "responses": ["SRM Institute Of Science And Technology, Bharathi Salai, Ramapuram,Chennai – 600 089.\nCONTACT - 044 4392 3042 /044 4392 3133\nEMAIL - helpdesk@srmrmp.edu.in"]
-    }
-]
-}
+{
+   "intents": [
+     {
+       "tag": "chatbot",
+       "patterns": [
+         "What's your name?",
+         "Who are you?",
+         "Can you help me?",
+         "Tell me about yourself",
+         "What can you do?"
+       ],
+       "responses": [
+         "I'm SRMINFO, your virtual assistant here to help with admissions, course info, and more.",
+         "My name is SRMINFO. I'm here to assist you with any questions you have about SRM Ramapuram."
+       ]
+     },
+     {
+       "tag": "greeting",
+       "patterns": [
+         "Hi", 
+         "Hello", 
+         "Good day", 
+         "Hey", 
+         "What's up?", 
+         "Greetings"
+       ],
+       "responses": [
+         "Hello! How can I assist you today?",
+         "Hi there! What can I do for you?",
+         "Good day! How may I help you?",
+         "Hello, how can I make your day easier?"
+       ]
+     },
+     {
+       "tag": "goodbye",
+       "patterns": [
+         "Goodbye", 
+         "Bye", 
+         "See you later", 
+         "Take care"
+       ],
+       "responses": [
+         "Goodbye! Feel free to reach out if you need more information.",
+         "See you later! Have a great day ahead.",
+         "Take care! Let me know if you have more questions."
+       ]
+     },
+     {
+       "tag": "thanks",
+       "patterns": [
+         "Thanks", 
+         "Thank you", 
+         "I appreciate it", 
+         "That's helpful", 
+         "You're the best"
+       ],
+       "responses": [
+         "You're welcome! Glad I could help.",
+         "Happy to assist! Let me know if you need anything else.",
+         "Anytime! Feel free to ask more questions."
+       ]
+     },
+     {
+       "tag": "admissions",
+       "patterns": [
+         "How can I apply?",
+         "Admission process", 
+         "How to get admission?", 
+         "Application procedure", 
+         "What are the requirements for admission?",
+         "I want to apply to SRM Ramapuram"
+       ],
+       "responses": [
+         "To apply for admission, visit the campus or apply through the SRM Ramapuram website: https://srmrmp.edu.in/. For more information, call 044 4392 3133 or 1800 102 1525."
+       ]
+     },
+     {
+       "tag": "srm_info",
+       "patterns": [
+         "Tell me about SRM", 
+         "What is SRM?", 
+         "Can you give me information about SRM Ramapuram?", 
+         "What does SRM stand for?"
+       ],
+       "responses": [
+         "SRM Institute of Science and Technology is a top-ranking university in India offering various undergraduate, postgraduate, and doctoral programs. It has over 20,000 students and 1,500 faculty members, with state-of-the-art infrastructure and academic excellence."
+       ]
+     },
+     {
+       "tag": "academics_undergraduate",
+       "patterns": [
+         "What undergraduate courses do you offer?", 
+         "List of UG programs", 
+         "Available undergraduate courses", 
+         "UG programs at SRM Ramapuram"
+       ],
+       "responses": [
+         "We offer the following undergraduate courses:\n- B.Tech in Artificial Intelligence, Computer Science & Engineering, Biotechnology, Biomedical Engineering, and more.\n- B.Arch in Architecture\n- B.Des in Interior Design"
+       ]
+     },
+     {
+       "tag": "academics_postgraduate",
+       "patterns": [
+         "What postgraduate courses are available?", 
+         "List of PG programs", 
+         "Available postgraduate courses", 
+         "PG programs at SRM Ramapuram"
+       ],
+       "responses": [
+         "We offer the following postgraduate courses:\n- M.Tech in Structural Engineering, Construction Engineering, and more.\n- M.Arch in Architecture"
+       ]
+     },
+     {
+       "tag": "facilities",
+       "patterns": [
+         "What are the campus facilities?", 
+         "Facilities at SRM", 
+         "Campus infrastructure", 
+         "What services does SRM Ramapuram offer?"
+       ],
+       "responses": [
+         "Our campus offers a variety of facilities including:\n- Air-conditioned auditoriums\n- Hostels for men and women\n- A well-stocked library\n- Medical and transport services\n- Banking and Xerox facilities"
+       ]
+     },
+     {
+       "tag": "contact",
+       "patterns": [
+         "What is the contact information?", 
+         "How can I reach SRM Ramapuram?", 
+         "Where is SRM located?", 
+         "What’s SRM Ramapuram's phone number?"
+       ],
+       "responses": [
+         "You can contact SRM Ramapuram at Bharathi Salai, Ramapuram, Chennai – 600 089.\nPhone: 044 4392 3042 / 044 4392 3133\nEmail: helpdesk@srmrmp.edu.in"
+       ]
+     },
+     {
+       "tag": "scholarships",
+       "patterns": [
+         "Are scholarships available?", 
+         "Does SRM offer scholarships?", 
+         "Scholarship opportunities at SRM"
+       ],
+       "responses": [
+         "Yes, SRM offers several scholarships for meritorious students, including Founder’s Scholarship, SRM Merit Scholarship, and many others. For more details, visit the SRM scholarships page or contact admissions."
+       ]
+     },
+     {
+       "tag": "hostel",
+       "patterns": [
+         "Do you have hostel facilities?", 
+         "Is there accommodation?", 
+         "What are the hostel options?"
+       ],
+       "responses": [
+         "Yes, we offer hostel facilities for both men and women with various amenities. You can choose between single and shared rooms, with mess and other facilities included."
+       ]
+     }
+   ]
+ }
+ 
