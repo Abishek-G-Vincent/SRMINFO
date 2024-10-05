@@ -23,6 +23,12 @@ body {
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
     --primary:#0c477f;
 }
+@media (max-width: 500px) {
+    .chatbox__support {
+        width: 90%;
+        height: 400px;
+    }
+}
 
 .bot_icon
 {
@@ -75,7 +81,14 @@ body {
     outline: none;
     cursor: pointer;
 }
+.send__button:hover {
+    background-color: #0a3966;
+    color: #fff;
+}
 
+.chatbox__button button:hover {
+    background-color: #f0f0f0;
+}
 
 /* HEADER */
 .chatbox__header {
@@ -93,9 +106,21 @@ body {
 }
 
 .messages__item {
-    background: rgb(255, 255, 255);
-    max-width: 60.6%;
-    width: fit-content;
+    padding: 8px 12px; /* Consistent padding for all messages */
+    border-radius: 20px; /* Same border radius */
+    font-family: 'Nunito', sans-serif; /* Font family */
+    font-size: 1rem; /* Consistent font size */
+    margin-top: 10px; /* Space between messages */
+    word-break: break-word; /* Prevent overflow */
+}
+
+.messages__item a {
+    color: #0c477f; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.messages__item a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
 
 .messages__item--operator {
