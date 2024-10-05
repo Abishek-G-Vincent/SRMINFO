@@ -1,20 +1,19 @@
 import random
 import json
 import torch
-from model import Neuralnet  # Ensure 'model.py' contains 'Neuralnet' class
-from nltk_utils import bag_of_words, tokenize  # Ensure 'nltk_utils.py' contains these functions
+from model import Neuralnet  #'Neuralnet' class from model.py
+from nltk_utils import bag_of_words, tokenize  # 'nltk_utils.py'
 
-# Check for CUDA availability
+# for CUDA availability
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Load intents from JSON file
 with open('intents.json', 'r') as f:
     intents = json.load(f)
 
-# Add safe globals if needed (e.g., for custom objects)
+# Add safe globals if needed
 torch.serialization.add_safe_globals([Neuralnet])
 
-# Suppress the specific FutureWarning about weights_only locally
 
 # Load pre-trained data
 FILE = "data.pth"
@@ -33,7 +32,7 @@ model = Neuralnet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "SRM_Assist"
+bot_name = "SRMINFO"
 def get_response(msg):
     sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
