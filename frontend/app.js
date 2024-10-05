@@ -94,12 +94,12 @@ class Chatbox {
         chatmessage.innerHTML = html;
         chatmessage.scrollTop = chatmessage.scrollHeight; // Scroll to the bottom
 
-         // Ensure links are clickable without causing page reload
+         // links are clickable (without reload)
          const links = chatmessage.querySelectorAll('a');
          links.forEach(link => {
              link.addEventListener('click', function(event) {
-                 event.preventDefault(); // Prevent default action
-                 window.open(link.href, '_blank'); // Open the link in a new tab
+                 event.preventDefault(); // to prevent default action
+                 window.open(link.href, '_blank'); // to open the link in a new tab
              });
          });
     }
