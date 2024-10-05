@@ -15,22 +15,18 @@
        ]
      },
      {
-       "tag": "greeting",
-       "patterns": [
-         "Hi", 
-         "Hello", 
-         "Good day", 
-         "Hey", 
-         "What's up?", 
-         "Greetings"
-       ],
-       "responses": [
-         "Hello! How can I assist you today?",
-         "Hi there! What can I do for you?",
-         "Good day! How may I help you?",
-         "Hello, how can I make your day easier?"
-       ]
-     },
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Greetings", "Good day", "What's up?",
+        "Hi there", "Hey, how's it going?", "Hello!", "Good morning", "Good evening",
+        "Hello there", "Howdy", "Hey buddy", "Hey there!", "What's going on?", "Hi friend"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Greetings! What can I do for you?"
+      ]
+    },
      {
        "tag": "goodbye",
        "patterns": [
@@ -71,7 +67,8 @@
          "I want to apply to SRM Ramapuram"
        ],
        "responses": [
-         "To apply for admission, visit the campus or apply through the SRM Ramapuram website: https://srmrmp.edu.in/. For more information, call 044 4392 3133 or 1800 102 1525."
+         "To apply for admission, visit our website: <a href='https://srmrmp.edu.in/' target='_blank'>SRM Admissions</a>.",
+        "You can find more information about the admission process <a href='https://srmrmp.edu.in/admissions' target='_blank'>here</a>."
        ]
      },
      {
