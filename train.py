@@ -1,5 +1,5 @@
 import json
-from nltk_utils import tokenize, stem, bag_of_words
+from nltk_utils import tokenize, lemmatize, bag_of_words
 import numpy as np
 
 import torch
@@ -25,7 +25,7 @@ for intent in intents['intents']:
 
 # Stemming
 ignore_words = ['?','!',',','.']
-all_words = [stem(w) for w in all_words if w not in ignore_words]
+all_words = [lemmatize(w) for w in all_words if w not in ignore_words]
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))
 
