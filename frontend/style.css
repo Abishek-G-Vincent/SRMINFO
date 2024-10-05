@@ -122,6 +122,21 @@ body {
 .messages__item a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+/* Style for unordered (ul) and ordered (ol) lists within the chatbox */
+.chatbox__messages ul, 
+.chatbox__messages ol {
+    padding-left: 20px; 
+    margin: 10px 0; 
+    list-style-position: inside; 
+}
+
+.chatbox__messages li {
+    font-size: 1rem; 
+    color: #333; 
+    word-break: break-word; 
+    line-height: 1.4; 
+}
+
 
 .messages__item--operator {
     margin-left: auto;
