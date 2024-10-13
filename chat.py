@@ -50,8 +50,10 @@ def get_response(msg):
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
+    elif prob.item() > 0.5:
+        return "I'm not sure I fully understand. Could you clarify your question?"
     
-    return "I do not understand..."
+    return "I don't know the answer to that. Maybe try rephrasing?"
 
 
 if __name__ == "__main__":
