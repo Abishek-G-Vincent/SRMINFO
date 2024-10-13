@@ -678,6 +678,27 @@
         "What is SRM Ramapuram known for?",
         "Can you tell me about the history of SRM Ramapuram?",
         "Can you tell me about SRM Ramapuram?",
+        "tell me about the significance of srm",
+        "What is the significance of SRM?",
+        "Can you tell me about SRM?",
+        "What can you say about SRM?",
+        "Please tell me about SRM.",
+        "Tell me more about SRM.",
+        "What is important about SRM?",
+        "What are the key aspects of SRM?",
+        "What is significant about SRM?",
+        "Can you share details about SRM?",
+        "What should I know about SRM?",
+        "Why is SRM important?",
+        "Can you explain the importance of SRM?",
+        "What makes SRM significant?",
+        "Why is SRM important?",
+        "Tell me why SRM is significant.",
+        "What does SRM stand for in terms of significance?",
+        "How is SRM significant in education?",
+        "What is the role of SRM in education?",
+        "Why should I know about the significance of SRM?",
+        "Can you describe the significance of SRM?",
         "Please tell me about SRM Ramapuram.",
         "Would you tell me about SRM Ramapuram?",
         "Could you tell me about SRM Ramapuram?",
@@ -688,9 +709,16 @@
         "Can you provide insights about SRM Ramapuram?",
         "What can you tell me about SRM Ramapuram?",
         "What is SRM Ramapuram?",
+        "give me some insights about srm",
+        "what are all the significance of srm",
         "Can you explain SRM Ramapuram?",
         "What can you tell me about SRM Ramapuram?",
         "How is SRM Ramapuram?",
+        "insights about srm",
+        "what is srm",
+        "what are the information about srm",
+        "tell me the information about srm",
+        "what are the insights of srm",
         "What is special about SRM Ramapuram?",
         "Can you share details about SRM Ramapuram?",
         "What should I know about SRM Ramapuram?",
@@ -706,7 +734,9 @@
         "What does SRM Ramapuram do?",
         "Is SRM Ramapuram a good school?",
         "What can I learn at SRM Ramapuram?",
-        "Why is SRM Ramapuram special?"
+        "Why is SRM Ramapuram special?",
+        "what is srm special for",
+        "tell me the basic information about srm"
       ],
       "responses": [
         "SRM Ramapuram, part of the SRM Institute of Science and Technology, is a premier educational institution in Chennai, Tamil Nadu, established in 2004. It offers a variety of undergraduate and postgraduate programs in engineering, management, and the arts, supported by modern infrastructure and experienced faculty. The campus fosters a vibrant student community with numerous clubs and activities, while a dedicated placement cell helps connect students with leading companies for internships and job opportunities. Overall, SRM Ramapuram is committed to providing quality education and practical experience, preparing students for successful careers."
@@ -861,7 +891,7 @@
         "How can I reach SRM?"
       ],
       "responses": [
-        "You can contact SRM Ramapuram at Bharathi Salai, Ramapuram, Chennai 600 089.<br>Phone: 044 4392 3042 / 044 4392 3133<br>Email: helpdesk@srmrmp.edu.in"
+        "You can contact SRM Ramapuram at Bharathi Salai, Ramapuram, Chennai  600 089.\nPhone: 044 4392 3042 / 044 4392 3133\nEmail: helpdesk@srmrmp.edu.in"
       ]
     },
     {
